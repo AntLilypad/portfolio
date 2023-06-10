@@ -1,5 +1,6 @@
 * {
-    font-family: sans-serif;
+    font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
 
 
@@ -9,12 +10,27 @@
     flex: 1 auto;
 }
 
+a {
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: 600;
+}
+
 ul.header-links {
     display: flex;
     gap: 20px;
 }
 ul {
     list-style: none;
+    align-items: center;
+}
+
+.header div {
+    color: palevioletred;
+    font-size: 25px;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 5px;
 }
 
 .hero {
@@ -23,10 +39,10 @@ ul {
     align-items: center;
 }
 
-.hero p {
-    color: palevioletred;
-    font-size: 42px;
-    font-weight: 700;
+
+.hero div {
+    padding-bottom: 30px;
+    font-weight: 600;
 }
 
 .info-container {
@@ -38,13 +54,14 @@ ul {
 
 .info-paragraph {
     display: flex;
-    padding: 0 200px 30px 200px;
+    padding: 0 250px 30px 250px;
     flex-direction: column;
 }
 
 .work-highlights {
   display: flex;
   align-items: center;
+  padding-bottom: 120px;
 }
 
 .video-container {
@@ -71,28 +88,26 @@ ul {
     padding: 30px 0 30px 0;
 }
 
-.CTA-button {
-    border: 3;
-    border-color: palevioletred;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 22px;
-    background-color: palegreen;
-}
 
-.CTA-container p {
-    font-size: 24px;
-}
 
 .contact-me {
-    padding: 120px 0 15px 0;
+    padding: 50px 60px 15px 60px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.contact-me, ul.contact-links {
-    align-self: flex-start;
+.contact-links {
+    padding: 0 60px 100px 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
 }
 
 .footer {
-    padding: 5px 0px 5px 10px;
-    background-color: lightpink;
+    padding: 5px 0 5px 0;
+    background-color: pink ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
+
