@@ -1,0 +1,145 @@
+* {
+    font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 auto;
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: 600;
+}
+
+ul.header-links {
+    display: flex;
+    gap: 20px;
+}
+ul {
+    list-style: none;
+    align-items: center;
+}
+
+.header div {
+    color: palevioletred;
+    font-size: 25px;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 5px;
+}
+
+.hero-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container p {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.container {
+    padding: 0 60px 30px 60px;
+    display: flex;
+    min-width: 40%;
+}
+
+.empty-space {
+    display: flex;
+    flex-basis: 150px;
+    max-width: 30%;
+}
+
+.form-container {
+    padding: 30px 60px 30px 60px;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+
+label {
+    align-self: flex-start;
+    padding-left: 20%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 8px; 
+    resize: vertical 
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  input[type=submit] {
+    background-color: palevioletred;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px 0 50px 0;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+.CTA-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+
+
+
+.contact-me {
+    padding: 50px 60px 15px 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-links {
+    padding: 0 60px 100px 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.footer {
+    padding: 5px 0 5px 0;
+    background-color: pink ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
