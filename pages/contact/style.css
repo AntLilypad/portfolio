@@ -26,11 +26,9 @@ ul {
 }
 
 .header div {
-    color: palevioletred;
     font-size: 25px;
-    font-weight: 600;
-    align-self: center;
     padding-left: 5px;
+
 }
 
 .hero-container {
