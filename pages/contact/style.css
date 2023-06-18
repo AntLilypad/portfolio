@@ -1,6 +1,8 @@
 * {
     font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
+    line-height: 1.5;
+    background-color: black;
 }
 
 
@@ -8,28 +10,31 @@
     display: flex;
     justify-content: space-between;
     flex: 1 auto;
-    align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: palevioletred;
-    font-weight: 600;
+    color: yellow;
 }
 
 ul.header-links {
     display: flex;
     gap: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 1vw;
 }
+
 ul {
     list-style: none;
     align-items: center;
 }
 
 .header div {
-    font-size: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    align-self: center;
     padding-left: 5px;
-
 }
 
 .hero-container {
@@ -41,6 +46,7 @@ ul {
 .hero-container p {
     font-size: 32px;
     font-weight: 600;
+    color: white;
 }
 
 .container {
@@ -65,6 +71,7 @@ ul {
 label {
     align-self: flex-start;
     padding-left: 20%;
+    color: slategray;
 }
 
 form {
@@ -76,12 +83,13 @@ form {
 input[type=text], select, textarea {
     width: 50%; 
     padding: 12px; 
-    border: 1px solid #ccc; 
+    border: 2px solid palevioletred; 
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 8px; 
-    resize: vertical 
+    resize: vertical;
+    color: white;
   }
   
 
@@ -91,8 +99,10 @@ input[type=text], select, textarea {
   }
 
   input[type=submit] {
-    background-color: palevioletred;
-    color: white;
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -103,7 +113,7 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: black;
     padding: 20px;
   }
 
@@ -111,20 +121,9 @@ input[type=text], select, textarea {
 
 
 
-
-
-.CTA-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 0 30px 0;
-}
-
-
-
 .contact-me {
-    padding: 50px 60px 15px 60px;
-    font-size: 20px;
+    padding: 50px 5% 15px 5%;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -137,8 +136,54 @@ input[type=text], select, textarea {
 
 .footer {
     padding: 5px 0 5px 0;
-    background-color: pink ;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    width: 100%;
+    border: solid palevioletred;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .header div {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 1vw;
+        min-width: 80%;
+    }
+
+    .empty-space {
+        max-width: 10%;
+        flex-basis: 0;
+    }
+
+    .form-container {
+        padding: 1vw;
+    }
+
+    label {
+        padding-left: 10vw;
+    }
+
+    input[type=text], select, textarea {
+        padding: 3vw;
+        width: 80%;
+    }
+
+    .contact-links {
+        padding: 0 2vw 5vw 2vw;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
 }

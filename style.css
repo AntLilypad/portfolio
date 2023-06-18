@@ -1,6 +1,9 @@
 * {
     font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    background-color: black;
 }
 
 
@@ -12,13 +15,16 @@
 
 a {
     text-decoration: none;
-    color: palevioletred;
-    font-weight: 600;
+    color: yellow;
+
 }
 
 ul.header-links {
     display: flex;
     gap: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 1vw;
 }
 ul {
     list-style: none;
@@ -26,8 +32,7 @@ ul {
 }
 
 .header div {
-    color: palevioletred;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
     align-self: center;
     padding-left: 5px;
@@ -43,6 +48,7 @@ ul {
 .hero div {
     padding-bottom: 30px;
     font-weight: 600;
+    color: palevioletred;
 }
 
 .info-container {
@@ -52,21 +58,26 @@ ul {
     align-items: center;
 }
 
+.info-title {
+    color: palevioletred;
+} 
+
 .info-paragraph {
     display: flex;
-    padding: 0 250px 30px 250px;
+    padding: 0 20% 30px 20%;
     flex-direction: column;
+    color: antiquewhite;
 }
 
 .work-highlights {
   display: flex;
   align-items: center;
   padding-bottom: 120px;
+  width: 100%;
 }
 
 .video-container {
     display: flex;
-    padding: 0 100px 0 100px;
     align-items: flex-start;
     justify-content: center;
 }
@@ -75,24 +86,21 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 0 5px 5px 5px;
+    width: 100%;
 }
 
 .video-caption {
-    padding: 10px 10px 20px 10px;
-}
-
-.CTA-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 0 30px 0;
+    padding: 5% 5% 20px 5%;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
 }
 
 
 
 .contact-me {
-    padding: 50px 60px 15px 60px;
-    font-size: 20px;
+    padding: 50px 5% 15px 5%;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -105,9 +113,55 @@ ul {
 
 .footer {
     padding: 5px 0 5px 0;
-    background-color: pink ;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    width: 100%;
+    border: solid palevioletred;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .header div {
+        font-size: 16px;
+    }
+
+    .hero div {
+        padding-bottom: 5vw;
+        font-size: 3.2vw;
+    }
+    .hero img {
+        width: 100%;
+    }
+
+    .info-container {
+        padding: 5vw 1vw 5vw 1vw;
+    }
+
+    .info-paragraph {
+        padding: 0 2vw 0 2vw;
+    }
+
+    .video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-links {
+        padding: 0 2vw 5vw 2vw;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
 
