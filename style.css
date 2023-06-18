@@ -44,7 +44,6 @@ ul {
     align-items: center;
 }
 
-
 .hero div {
     padding-bottom: 30px;
     font-weight: 600;
@@ -70,23 +69,25 @@ ul {
 }
 
 .work-highlights {
-  display: flex;
-  align-items: center;
-  padding-bottom: 120px;
-  width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+    width: 100%;
 }
 
 .video-container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    width: 100%;
 }
 
 .video {
     display: flex;
     flex-direction: column;
     padding: 0 5px 5px 5px;
-    width: 100%;
+
 }
 
 .video-caption {
@@ -165,3 +166,14 @@ ul {
 }
 
 
+
+@media only screen and (min-width: 1440px) {
+.hero-image img {
+    max-width: 1440px;
+}
+
+.video {
+    padding: 0 20px 5px 20px;
+}
+
+}
