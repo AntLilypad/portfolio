@@ -2,6 +2,7 @@
     font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
     line-height: 1.5;
+    box-sizing: border-box;
     background-color: black;
 }
 

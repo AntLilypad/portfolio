@@ -19,7 +19,7 @@ $email_from = 'ant@antjimenez.com';
 
 $email_subject = "New Form submission";
 
-$email_body = "You have received a new message from the user $name.\n". 
+$email_body = "You have received a new message from the user $name at $visitor_email . \n". 
     "Here is the message:\n $message";
 
 
