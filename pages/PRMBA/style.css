@@ -131,6 +131,10 @@ ul {
         padding-bottom: 5vw;
     }
 
+    .container img {
+        width: 100%;
+    }
+
     video {
         width: 90%;
     }
