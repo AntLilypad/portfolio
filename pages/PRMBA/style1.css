@@ -1,0 +1,150 @@
+* {
+    font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    background-color: black;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 auto;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+
+}
+
+ul.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 1vw;
+}
+ul {
+    list-style: none;
+    align-items: center;
+}
+
+.header div {
+    font-size: 24px;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 5px;
+}
+
+.hero-container {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-container p {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero-container div {
+    max-width: 60%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+}
+
+.container {
+    padding: 80px 5px 30px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container img {
+    padding: 2vw;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px
+}
+
+
+
+.contact-me {
+    padding: 50px 5% 15px 5%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-links {
+    padding: 0 60px 100px 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.footer {
+    padding: 5px 0 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    border: solid palevioletred;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .header div {
+        font-size: 16px;
+    }
+
+    .hero-container div {
+        max-width: 90%;
+    }
+
+    .container {
+        padding: 5vw 2vw 5vw 2vw;
+    }
+
+    .video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5vw;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    video {
+        width: 90%;
+    }
+
+    .contact-links {
+        padding: 0 2vw 5vw 2vw;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
