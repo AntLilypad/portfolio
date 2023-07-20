@@ -99,6 +99,9 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 0 30px 5px 30px;
+}
+
+iframe {
     width: 720px;
     height: 360px;
 }
@@ -173,8 +176,9 @@ ul {
         padding-bottom: 5vw;
     }
 
-    video {
-        width: 90%;
+    iframe {
+        width: 100%;
+        height: auto;
     }
 
     .contact-links {
