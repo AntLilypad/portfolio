@@ -22,8 +22,8 @@ a {
 ul.header-links {
     display: flex;
     gap: 20px;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 600;
     padding-right: 1vw;
 }
 ul {
@@ -31,12 +31,42 @@ ul {
     align-items: center;
 }
 
-.header div {
+.header .name {
     font-size: 24px;
     font-weight: 600;
     align-self: center;
     padding-left: 5px;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.drpbtn {
+    color: yellow;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px palevioletred;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: yellow;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+  }
 
 .hero {
     display: flex;
