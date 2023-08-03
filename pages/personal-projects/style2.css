@@ -22,7 +22,7 @@ a {
 
 ul.header-links {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     font-size: 20px;
     font-weight: 600;
     padding-right: 1vw;
