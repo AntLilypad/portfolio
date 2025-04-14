@@ -201,8 +201,8 @@ input[type=text], select, textarea {
     display: inline;
   }
 
-.desktop-footer {
-    display: inline;
+.mobile-title {
+    display: none;
   }
   
   .mobile-footer {

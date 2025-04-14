@@ -149,8 +149,8 @@ ul {
     display: inline;
   }
 
-.desktop-footer {
-    display: inline;
+.mobile-title {
+    display: none;
   }
   
   .mobile-footer {
