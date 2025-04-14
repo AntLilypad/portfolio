@@ -79,8 +79,6 @@ ul {
     flex-direction: column;
     align-items: center;
     position: relative;
-    animation: fadeInUp 1s ease-out forwards;
-    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .hero div {
@@ -89,21 +87,6 @@ ul {
     color: palevioletred;
 }
 
-@keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .hero img,
-  .hero div {
-    animation: fadeInUp 1s ease-out forwards;
-  }
 
 .info-container {
     display: flex;
