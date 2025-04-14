@@ -78,7 +78,7 @@ ul {
 .hero-container p {
     font-size: 32px;
     font-weight: 600;
-    color: white;
+    color: antiquewhite;
 }
 
 .hero-container div {
@@ -86,8 +86,8 @@ ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
-    color: white;
-}
+    color: antiquewhite
+}   
 
 .work-highlights {
     padding: 80px 5px 30px 5px;
@@ -137,7 +137,7 @@ ul {
     border-bottom: 0;
     border-left: 0;
     border-right: 0;
-    color: white;
+    color: antiquewhite;
 }
 
 

@@ -76,7 +76,7 @@ ul {
 .hero-container p {
     font-size: 32px;
     font-weight: 600;
-    color: #faf9f6;
+    color: antiquewhite;
 }
 
 .container {
@@ -108,7 +108,7 @@ ul {
 label {
     align-self: flex-start;
     padding-left: 20%;
-    color: #faf9f6;
+    color: antiquewhite;
 }
 
 form {
@@ -127,7 +127,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 8px; 
     resize: vertical;
-    color: #faf9f6;
+    color: antiquewhite;
   }
   
 
@@ -182,7 +182,7 @@ input[type=text], select, textarea {
     border-bottom: 0;
     border-left: 0;
     border-right: 0;
-    color: white;
+    color: antiquewhite;
 }
 
 .thanks {

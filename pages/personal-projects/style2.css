@@ -76,7 +76,7 @@ ul {
     padding-top: 30px;
     justify-content: center;
     display: flex;
-    color: white;
+    color: antiquewhite;
     padding-bottom: 50px;
 }
 
@@ -106,7 +106,7 @@ ul {
     padding: 5% 5% 20px 5%;
     font-size: 14px;
     font-weight: 300;
-    color: white;
+    color: antiquewhite;
 }
 
 
@@ -136,7 +136,7 @@ ul {
     border-bottom: 0;
     border-left: 0;
     border-right: 0;
-    color: white;
+    color: antiquewhite;
 }
 
 
