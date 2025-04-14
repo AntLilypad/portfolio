@@ -8,6 +8,9 @@
 
 }
 
+body, html {
+    height: 100%;
+}
 
 .header {
     display: flex;
@@ -182,6 +185,22 @@ ul {
     color: white;
 }
 
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero img,
+  .hero div {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
 
 
 
@@ -215,7 +234,6 @@ ul {
     }
 
 
-
     .video-container {
         display: flex;
         flex-direction: column;
@@ -229,6 +247,9 @@ ul {
         flex-direction: column;
         align-items: flex-end;
     }
+
+
+
 }
 
 
