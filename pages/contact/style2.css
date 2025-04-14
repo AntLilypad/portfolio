@@ -177,6 +177,11 @@ input[type=text], select, textarea {
     color: white;
 }
 
+.thanks {
+    display: flex;
+    color: palevioletred;
+}
+
 
 
 
