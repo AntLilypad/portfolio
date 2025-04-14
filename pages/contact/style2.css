@@ -76,14 +76,14 @@ ul {
 .hero-container p {
     font-size: 32px;
     font-weight: 600;
-    color: white;
+    color: #faf9f6;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center; /* optional: for vertical centering */
-    padding: 40px 20px;
+    padding: 40px 5vw;
     min-height: 80vh; /* optional: makes vertical centering visible */
 }
 
@@ -108,7 +108,7 @@ ul {
 label {
     align-self: flex-start;
     padding-left: 20%;
-    color: slategray;
+    color: #faf9f6;
 }
 
 form {
@@ -127,7 +127,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 8px; 
     resize: vertical;
-    color: white;
+    color: #faf9f6;
   }
   
 
