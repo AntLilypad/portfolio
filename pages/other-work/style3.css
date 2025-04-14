@@ -129,10 +129,6 @@ iframe {
     color: antiquewhite;
 }
 
-
-
-
-
 .contact-me {
     padding: 50px 5% 15px 5%;
     font-size: 16px;
@@ -140,10 +136,16 @@ iframe {
 }
 
 .contact-links {
-    padding: 0 60px 100px 60px;
+    padding: 0 5% 50px 5%;
     display: flex;
     flex-direction: row;
     font-size: 14px;
+}
+
+.contact-links.desktop-footer {
+    list-style: none;
+    display: flex;
+    gap: 5px;
 }
 
 .footer {
@@ -153,10 +155,7 @@ iframe {
     align-items: flex-end;
     text-align: right;
     width: 100%;
-    border: solid palevioletred;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
+    border-top: solid palevioletred;
     color: antiquewhite;
 }
 
@@ -241,7 +240,7 @@ iframe {
 }
 
 @media only screen and (max-width: 1080px) {
-    .desktop-footer {
+    .contact-links.desktop-footer {
         display: none;
       }
     
