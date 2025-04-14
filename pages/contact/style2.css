@@ -177,6 +177,7 @@ input[type=text], select, textarea {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
     width: 100%;
     border: solid palevioletred;
     border-bottom: 0;
@@ -191,6 +192,22 @@ input[type=text], select, textarea {
     color: palevioletred;
     padding-bottom: 25vh;
 }
+
+.desktop-title {
+    display: inline;
+  }
+
+  .desktop-footer {
+    display: inline;
+  }
+
+.desktop-footer {
+    display: inline;
+  }
+  
+  .mobile-footer {
+    display: none;
+  }
 
 
 
@@ -231,4 +248,29 @@ input[type=text], select, textarea {
         flex-direction: column;
         align-items: flex-end;
     }
+
+    .desktop-title {
+        display: none;
+      }
+    
+    .mobile-title {
+        display: inline;
+        line-height: 1.2;
+        font-size: 14px;
+        display: block;
+      }
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .desktop-footer {
+        display: none;
+      }
+    
+    .mobile-footer {
+        display: inline;
+        line-height: 1.2;
+        font-size: 14px;
+        display: block;
+      }
 }

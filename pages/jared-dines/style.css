@@ -132,6 +132,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
     width: 100%;
     border: solid palevioletred;
     border-bottom: 0;
@@ -139,6 +140,22 @@ ul {
     border-right: 0;
     color: antiquewhite;
 }
+
+.desktop-title {
+    display: inline;
+  }
+
+  .desktop-footer {
+    display: inline;
+  }
+
+.desktop-footer {
+    display: inline;
+  }
+  
+  .mobile-footer {
+    display: none;
+  }
 
 
 @media only screen and (max-width: 600px) {
@@ -184,5 +201,28 @@ ul {
         flex-direction: column;
         align-items: flex-end;
     }
+
+    .desktop-title {
+        display: none;
+      }
+    
+    .mobile-title {
+        display: inline;
+        line-height: 1.2;
+        font-size: 14px;
+        display: block;
+      }
 }
 
+@media only screen and (max-width: 1080px) {
+    .desktop-footer {
+        display: none;
+      }
+    
+    .mobile-footer {
+        display: inline;
+        line-height: 1.2;
+        font-size: 14px;
+        display: block;
+      }
+}

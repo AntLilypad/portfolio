@@ -87,6 +87,9 @@ ul {
     color: palevioletred;
 }
 
+.hero-p {
+    max-width: 70%;
+}
 
 .info-container {
     display: flex;
@@ -98,6 +101,7 @@ ul {
 
 .info-title {
     color: palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 
 .info-paragraph {
@@ -191,7 +195,21 @@ ul {
     color: antiquewhite;
 }
 
+.desktop-title {
+    display: inline;
+  }
 
+  .desktop-footer {
+    display: inline;
+  }
+  
+  .mobile-title {
+    display: none;
+  }
+
+  .mobile-footer {
+    display: none;
+  }
   
 
 
@@ -205,6 +223,7 @@ ul {
     .hero div {
         padding-bottom: 5vw;
         font-size: 3.2vw;
+        text-align: center;
     }
     .hero img {
         width: 100%;
@@ -212,6 +231,7 @@ ul {
 
     .info-container {
         padding: 5vw 1vw 5vw 1vw;
+        text-align: center;
     }
 
     .info-paragraph {
@@ -240,19 +260,57 @@ ul {
         align-items: flex-end;
     }
 
+    .desktop-title {
+        display: none;
+      }
+    
+    .mobile-title {
+        display: inline;
+        line-height: 1.2;
+        font-size: 14px;
+        display: block;
+      }
 
+    .desktop-footer {
+        display: none;
+      }
+    
+    .mobile-footer {
+        display: inline;
+        line-height: 1.2;
+        font-size: 14px;
+        display: block;
+      }
 
 }
 
 
 
-@media only screen and (min-width: 1440px) {
-.hero-image img {
-    max-width: 1440px;
-}
+@media only screen and (min-width: 600px) (max-width: 1080px) {
+    .hero-image img {
+        max-width: 1440px;
+    }
 
-.video {
-    padding: 0 20px 5px 20px;
-}
+    .video {
+        padding: 0 20px 5px 20px;
+    }
 
+    .desktop-title {
+        display: inline;
+    }
+
+    .mobile-title {
+        display: none
+    }
+
+    .desktop-footer {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: inline;
+        line-height: 1.2;
+        font-size: 14px;
+        display: block;
+    }
 }
