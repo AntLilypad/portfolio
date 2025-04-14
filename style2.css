@@ -3,7 +3,7 @@
     letter-spacing: 1px;
     line-height: 1.5;
     box-sizing: border-box;
-    background-color: #252525;
+    background-color: #121212;
     box-sizing: border-box;
 
 }
@@ -78,6 +78,9 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    animation: fadeInUp 1s ease-out forwards;
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .hero div {
@@ -85,6 +88,22 @@ ul {
     font-weight: 600;
     color: palevioletred;
 }
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero img,
+  .hero div {
+    animation: fadeInUp 1s ease-out forwards;
+  }
 
 .info-container {
     display: flex;
@@ -185,21 +204,7 @@ ul {
     color: white;
 }
 
-@keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .hero img,
-  .hero div {
-    animation: fadeInUp 1s ease-out forwards;
-  }
+
   
 
 
